@@ -4,9 +4,7 @@
   <%= @recipe.title %>
 </h2>
 
-<div class="jumbotron">
-  <%= @recipe.recipe %>
-</div>
+<div class="jumbotron"><%= @recipe.recipe %></div>
 
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', recipes_path %>
